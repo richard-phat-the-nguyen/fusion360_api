@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-Naca="6412"
+Naca="0015"
 M=int(Naca[0])/100
 P=int(Naca[1])/10
 XX=int(Naca[2:4])/100
@@ -58,5 +58,6 @@ plt.grid('on')
 
 plt.figure()
 plt.plot(xf,yf)
+plt.plot(0.3994,0,'ok')
 plt.axis('equal')
 plt.grid('on')
